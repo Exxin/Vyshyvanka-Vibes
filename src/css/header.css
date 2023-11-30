@@ -5,16 +5,6 @@ html {
   display: flex;
   background-color: #1c2225;
   justify-content: space-between;
-
-}
-
-.head {
-  padding-bottom: 10px;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: linear-gradient(180deg, #1c2225 91%, transparent 101%);
 }
 
 .page-nav {
