@@ -226,11 +226,6 @@
     border: 1px solid #ECD979;
   }
 
-  .testimonials-card:hover .testimonials-img,
-  .testimonials-card:focus .testimonials-img {
-    border: 1px solid #ECD979;
-  }
-
   .tablet {
     visibility: visible;
     display: contents;
