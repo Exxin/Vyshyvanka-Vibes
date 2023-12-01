@@ -37,7 +37,9 @@
     margin-top: 20px;
     gap: 10px;
     padding: 14px 39px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
     justify-content: center;
 }
@@ -50,6 +52,8 @@
 .order-btn:hover,
 .order-btn:focus {
     border-color: #ECD979;
+    border-radius: 0;
+    background-color: rgba(252, 249, 249, 0.1);
 }
 
 .handmate-mark {
@@ -151,9 +155,9 @@
 
 @media (min-width: 1280px) {
 
-    .hreo {
+    /* .hreo {
         padding-top: 100px;
-    }
+    } */
 
     .hero-container {
         flex-direction: row;

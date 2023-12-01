@@ -34,15 +34,20 @@ html {
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
+  border-radius: 15px;
+  border-bottom: 1px solid #1c2225;
 
   transition-property: color;
   transition-duration: 250ms;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
   color: #ecd979;
+  border-color: #ecd979;
+  border-radius: 0;
+  padding: 12px 0px;
 }
 .mobile-tel-container {
   display: flex;
@@ -79,6 +84,7 @@ html {
 .social-item:active {
   border-color: #ecd979;
   background-color: transparent;
+  border-radius: 0;
 }
 .social-link {
   width: 28px;
@@ -119,19 +125,23 @@ html {
     color: #fcf9f9;
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
-    padding: 14px 28px;
+    padding: 12px 28px;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
 
     transition-property: border-color;
     transition-duration: 250ms;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-radius 350ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .tel-link:hover,
   .tel-link:focus,
   .tel-link:active {
     border-color: #ecd979;
+    border-radius: 0;
+    background-color: rgba(252, 249, 249, 0.1);
   }
 
   .solid-menu-btn {
