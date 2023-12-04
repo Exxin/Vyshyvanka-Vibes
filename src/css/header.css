@@ -36,19 +36,22 @@ html {
   text-transform: uppercase;
   border-radius: 15px;
   border-bottom: 1px solid #1c2225;
+  position: relative;
 
   transition-property: color;
   transition-duration: 250ms;
   transition: all 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .nav-link:active {
   color: #ecd979;
   border-color: #ecd979;
   border-radius: 0;
-  padding: 12px 0px;
+  padding: 10px 0px;
 }
+
 .mobile-tel-container {
   display: flex;
   padding-top: 20px;
