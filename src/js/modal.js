@@ -1,4 +1,4 @@
-(() => {
+/**(() => {
   const refs = {
     openModalBtn: document.querySelector('[data-modal-open]'),
     closeModalBtn: document.querySelector('[data-modal-close]'),
@@ -26,3 +26,15 @@
     refs.modal.classList.toggle('is-open-mob');
   }
 })();
+**/
+function openModal() {
+    // Показати модальне вікно та затемнення заднього плану
+    document.getElementById("mobile-menu").style.display = "block";
+    document.getElementById("overlay").style.visibility = "visible";
+}
+
+function closeModal() {
+    // Сховати модальне вікно та затемнення заднього плану
+    document.getElementById("mobile-menu").style.display = "none";
+    document.getElementById("overlay").style.visibility = "hidden";
+}
