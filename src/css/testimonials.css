@@ -224,7 +224,6 @@
   .testimonials-card:focus{
     border-radius: 0px;
     border: 1px solid #ECD979;
-    box-shadow: 0 0px 180px -70px rgba(238, 255, 0, 0.2);
   }
 
   .tablet {
