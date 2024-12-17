@@ -25,6 +25,7 @@ html {
   margin-top: auto;
   margin-bottom: auto;
 }
+
 .nav-list {
   display: none;
 }
@@ -34,7 +35,7 @@ html {
   font-weight: 400;
   line-height: 1.28;
   text-transform: uppercase;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   border-bottom: 1px solid #1c2225;
   position: relative;
 
